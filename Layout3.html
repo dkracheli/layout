@@ -2,6 +2,9 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
+    <script src="js/scripts.js"></script>
+    <link rel="shortcut icon" href="#" />
     <link rel="stylesheet" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
     <title>Layout3</title>
@@ -9,27 +12,36 @@
 
 <body>
     <div id="wrapper3">
-        <div class="Squares">
             <header>
-                    <a href="index.html" id="logo"></a>
+                <a href="index.html" id="logo"></a>
+                <button id="plusBut" onclick = "onClickPlus()">+</button>
+                <button id="buttonRef" onClick= "Restart()">Restart</button>
+                <span id="hidden">one more time!</span>
                 <nav>
                     <ul>
                         <li><a href="index.html">Layout 1</a></li>
                         <li><a href="Layout2.html">Layout 2</a></li>
                         <li><a class="selected">Layout 3</a></li>
                     </ul>
-                </nav>
+                </nav >
             </header>
+            <aside>
+                <section class="Squares">
+                    <article class="whiteColor"></article>
+                    <article class="whiteColor"></article>
+                    <article class="whiteColor"></article>
+                    <article class="whiteColor"></article>
+                </section>
+            </aside>
             <main>
-                <article></article>
-                <article></article>
-                <article></article>
-                <article></article>
+           
             </main>
         </div>
-        <aside></aside>
         <footer> </footer>
-    </div>
+        <script>
+           initialize();
+           window.addEventListener("resize", chengeWhite);
+        </script>
 </body>
 
 </html>
