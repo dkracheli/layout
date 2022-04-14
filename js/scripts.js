@@ -33,6 +33,7 @@ function CreateImg(imgSrc) {
     let DisnyImg = document.createElement("img");
     DisnyImg.className = "uncovering";
     DisnyImg.src = imgSrc;
+    DisnyImg.setAttribute("onclick", "onClickEvent(this)");
     return DisnyImg;
 }
 

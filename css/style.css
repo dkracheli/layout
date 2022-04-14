@@ -63,7 +63,7 @@ header {
     padding-top: 1px;
 }
 
-li>a {
+li > a {
     background-color: #FFCDD2;
     font-size: 15px;
     font-style: normal;
@@ -72,11 +72,11 @@ li>a {
     color: black;
 }
 
-nav>ul {
+nav > ul {
     list-style: none;
 }
 
-.haderLayuot1>nav>ul {
+.haderLayuot1 > nav > ul {
     text-align: center;
     display: flex;
     position: absolute;
@@ -89,7 +89,7 @@ nav>ul {
     line-height: 58px;
 }
 
-#wrapper1>main {
+#wrapper1 > main {
     width: 100%;
     height: 491px;
     background-color: #212121;
@@ -97,7 +97,7 @@ nav>ul {
     position: relative;
 }
 
-#wrapper1>main>h1 {
+#wrapper1 > main > h1 {
     width: 92px;
     height: 33px;
     background-color: #517A8D;
@@ -113,13 +113,13 @@ nav>ul {
     display: flex;
 }
 
-.content>section:nth-child(1) {
+.content > section:nth-child(1) {
     width: 335px;
     height: 386px;
     background-color: #517A8D;
 }
 
-.content>section:nth-child(2) {
+.content > section:nth-child(2) {
     width: 338px;
     height: 334px;
     margin-left: 25px;
@@ -150,14 +150,14 @@ footer {
     line-height: 136px;
 }
 
-#wrapper2>nav {
+#wrapper2 > nav {
     width: 17.4285714%;
     height: 1688px;
     list-style: none;
     background-color: #FFCDD2;
 }
 
-#wrapper2>main {
+#wrapper2 > main {
     width: 56.7142855%;
     height: 1688px;
     background-color: #212121;
@@ -175,28 +175,28 @@ article {
     background-color: #517A8D;
 }
 
-.MainLeft>article:nth-child(2) {
+.MainLeft > article:nth-child(2) {
     margin-top: 120px;
 }
 
-.MainLeft>article:nth-child(3) {
+.MainLeft > article:nth-child(3) {
     margin-top: 48px;
 }
 
-.MainRight>section {
+.MainRight > section {
     background-color: #212121;
     width: 340px;
     height: 340px;
 }
 
-#wrapper2>aside {
+#wrapper2 > aside {
     width: 23.8571429%;
     height: 1688px;
     background-color: #FFCDD2;
     position: relative;
 }
 
-#wrapper2>aside>section:nth-child(1) {
+#wrapper2 > aside> section:nth-child(1) {
     width: 127px;
     height: 336px;
     background-color: #C0D0E5;
@@ -205,7 +205,7 @@ article {
     float: right;
 }
 
-#wrapper2>aside>section:nth-child(2) {
+#wrapper2 > aside > section:nth-child(2) {
     width: 128px;
     height: 125px;
     background-color: #C0D0E5;
@@ -222,21 +222,21 @@ article {
     flex-wrap: wrap;
 }
 
-#wrapper3>header {
+#wrapper3 > header {
     width: 50%;
     height: 499px;
     background-color: #212121;
     position: relative;
 }
 
-#wrapper3>header>nav {
+#wrapper3 > header > nav {
     width: 100%;
     height: 60px;
     position: absolute;
     bottom: 0;
 }
 
-#wrapper3 nav>ul {
+#wrapper3 nav > ul {
     display: flex;
     float: right;
     list-style: none;
@@ -264,7 +264,6 @@ article {
     left: 190px;
     background-color: #212121;
     border: none;
-
 }
 
 #hidden {
@@ -276,13 +275,13 @@ article {
     display: none;
 }
 
-#uncovering:hover {
+.uncovering:hover {
     opacity: 0%;
 }
 
 .redColor, article:hover {
     background-color: red;
-    animation-duration: 3s;
+    z-index: 99;
 }
 
 .whiteColor {
